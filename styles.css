@@ -24,6 +24,7 @@ body{
 
 .card{
     background-image: linear-gradient(#92929E, #F3DFC7);
+    width: 18rem;
 }
 
 .media{
@@ -35,3 +36,9 @@ a{
     color: black !important;
 }
 
+img{
+    width: 100%; 
+    height: 15rem;
+    overflow: hidden;
+    object-fit: cover;
+}
